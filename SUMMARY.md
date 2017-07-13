@@ -6,4 +6,4 @@
 
 ## Acknowledgments
 
-* [btcd](methods.md)
+* [btcd](btcd.md)
