@@ -1,3 +1,2 @@
-# My Awesome API
-
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Copernicus is an alternative implementation of the Bitcoin protocol , written in Golang .
+We are developing now , We expect more developers to join the development of Bitcoin , to contribute to the Bitcoin Community .
