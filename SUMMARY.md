@@ -1,9 +1,9 @@
 # Summary
 
-## Overview
+## Introduction
 
-* [My Awesome API](README.md)
+* [Copernicus](README.md)
 
-## Methods
+## Acknowledgments
 
-* [Defining Methods](methods.md)
+* [btcd](methods.md)
