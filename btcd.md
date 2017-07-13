@@ -1,7 +1,7 @@
 
 ## Thanks btcd's work
 In the course of our development Copernicus , We are particularly grateful for the efforts and contributions of btcd in the development of Bitcoin protocol . Their work so that we use golang development Bitcoin will be easier . 
-In some places in Copernicus directly use the btcd code , here to explain the next to express our respect for btcd . We are to do some changes in some places , so thar this code  is suitable for our ideas , for this part of the code we will the license and the copyright of btcd . 
+In some places in Copernicus directly use the btcd's code , here to explain the next to express our respect for btcd . We are to do some changes in some places , so thar this code  is suitable for our ideas , for this part of the code we will the license and the copyright of btcd . 
 
 If there are missing , please let us know and we will make up as soon as possible.
 Below is a brief description of the code used and the code modified .
@@ -19,10 +19,10 @@ Of course , there are other parts we will refer to btcd's code , in the future w
 
 Thanks to  the btcsuite team and the developers who contributed to `btcd` and `btcutil` .
 
-Contributors of `btcutil` :
+## Contributors of `btcutil`
 adiabat,    waldyrious,    Roasbeef,    cpacia,    benma,    afk11,    jcvernaleo,    flammit,    wallclockbuilder,    dajohi,    jrick,    davecgh
 
-Contributors of `btcd`:
+## Contributors of `btcd`
 
 justusranvier,    ortutay,    esemplastic,    dskloet,    drazisil,    yrashk,    waldyrious,    runeaune,    rvelhote,    oleganza,    IngCr3at1on,    fanquake,    mdempsky,    Kefkius,    jadeblaquiere,    jzbz,    ysangkok,    hectorj,    federicobond,    evansuva,    mvdan,    shphrd,    turboroot,    beldur,    lologarithm,    benhc123,    carryforward,    bclermont,    cpacia,    mischief,    verokarhu,    chris-martin,    gsalgado,    ishbir,    halseth,    marcopeereboom,    dan-da,    DanielKrawisz,    alexbosworth,    toddfries,    tb00,    dskloetg,    kargakis,    Dirbaio,    wallclockbuilder,    tsenart,    stevenroose,    jimmysong,    aakselrod,    owainga,    jongillham,    flammit,    tuxcanfly,    drahn,    Roasbeef,    jcvernaleo,    jrick,    dajohi,    davecgh    
 
