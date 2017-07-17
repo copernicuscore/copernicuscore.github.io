@@ -6,14 +6,15 @@ The content of this paper is mainly for the transaction data structure and analy
 The transcations of the bitcoin is stored in the block by bytes , use the bitcoin-cli command to get an raw transcation .  E.g:
 >bitcoin-cli getrawtransaction 2eb0e06af852f049f7dc641f740ded17a11cde138fd3d3d3c4a078649c053260
 
-We will get a complete raw transaction :
+We will get a complete raw transaction[^rawtransaction] :
 ```
-010000000112255d3c...88ac00000000[^rawtransaction]
+010000000112255d3c...88ac00000000
 ```
 The raw transcation shown here is treated by `hex` and does not show the original byte stream . From the abvoe `hex` string and can not see useful information , json fromat of the transcation can view [api](https://chain.api.btc.com/v3/tx/2eb0e06af852f049f7dc641f740ded17a11cde138fd3d3d3c4a078649c053260?verbose=3)
 The raw transcation data can not intuitively see the specific content of the transxation , with the example of this transxation cane be a detailed analysis of the transation structure and the original data analysis .
 ## The strcuct of transaction
 A complete transxation consists of the following elements :
+
 * version
 * transaction input
 * transaction output
@@ -36,6 +37,7 @@ Through the above table you can see how an raw transcation is stored in the tran
 Here is a description of the transcation data structure and how he stored in the original transcation , but did not analyze the specific input,output content . The folloeing input and output analysis ,start form the input. 
 ## Transcation In
 The input of a transcsation can consist of the following elements :
+
 * previous_hash
 * previous_index
 * signature script
@@ -59,6 +61,7 @@ And the length of the unlock script is unkonwn , you need to use a variable shap
 ## Transaction Out
 
 The output of a transcation consists of the following elements :
+
 * value
 * script
 
